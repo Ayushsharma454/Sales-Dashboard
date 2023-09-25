@@ -1,0 +1,26 @@
+.user-details-wrapper {
+    width: 30%;
+    background-color: white;
+    border-radius: 22px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-details-wrapper p {
+    color: #8C9BBF;
+    font-size: 14px;
+    font-family: Mulish;
+    font-weight: 700;
+    letter-spacing: 0.88px;
+    word-wrap: break-word
+}
+
+@media (max-width: 1024px) {
+    .user-details-wrapper {
+        margin-top: 24px;
+        width: 50%;
+        height: 300px;
+    }
+}

@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.Sidebar {
+  width: 250px; 
+  background-color: #333; 
+  color: white; 
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+  background: #F2F7FF;
+} 
+
+
+.row-one{
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.row-two{
+  margin:24px 0 0 0;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  gap: 24px;
+}
+
+
+.Component {
+  flex: 1;
+  min-width: calc(25% - 20px); 
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .row-one,.row-two{
+    flex-direction: column;
+    align-items: center;
+
+  }
+}

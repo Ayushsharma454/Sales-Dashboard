@@ -1,0 +1,22 @@
+.parent-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.second-card{
+  margin: 24px 0;
+}
+
+@media(max-width:1024px){
+  .parent-component{
+      width: 80%;
+      align-items: center;
+  }
+  .second-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
