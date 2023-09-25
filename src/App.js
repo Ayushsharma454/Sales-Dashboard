@@ -17,12 +17,12 @@ function App() {
           <Header />
           <div className="main-content">
             <div className='row-one'>
-              <Component1 className='small-div' />
-              <LineChart className='big-div' />
+              <Component1  />
+              <LineChart  />
             </div>
             <div className='row-two'>
-              <BarGraph className='small-div'/>
-              <UserDetails className='big-div'/>
+              <BarGraph />
+              <UserDetails />
             </div>
 
           </div>
