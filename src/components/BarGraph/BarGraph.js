@@ -27,12 +27,12 @@ const BarGraph = () => {
             {
                 backgroundColor: "#0891FE",
                 data: [5, 10, 30, 5, 40, 50, 40, 60, 70, 60, 80],
-                borderRadius: 50,
+                borderRadius: 10,
             },
             {
                 backgroundColor: "#ADDAFE",
                 data: [7, 20, 40, 15, 20, 60, 70, 50, 80, 50, 80],
-                borderRadius: 50,
+                borderRadius: 10,
             }
         ],
     };
@@ -42,7 +42,7 @@ const BarGraph = () => {
     const options = {
         plugins: {
             legend: {
-                display: false, // Hide legend
+                display: false,
             },
             tooltip: {
                 yAlign: 'bottom',

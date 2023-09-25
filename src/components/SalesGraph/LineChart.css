@@ -22,12 +22,21 @@
     letter-spacing: 0.875px;
 }
 
-.graph-header span{
+.graph-header span p {
+    color: #8C9BBF;
+    font-size: 14px;
+    font-family: Mulish;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+    word-wrap: break-word
+}
+
+.graph-header span {
     display: flex;
     align-items: center;
 }
 
-.graph-header span img{
+.graph-header span img {
     width: 10px;
     height: 5px;
     margin-left: 5px;
@@ -35,7 +44,7 @@
 
 
 @media (max-width: 1024px) {
-    .graph-wrapper{
+    .graph-wrapper {
         margin-top: 24px;
         width: 95%;
     }

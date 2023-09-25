@@ -31,6 +31,15 @@
     letter-spacing: 0.875px;
 }
 
+.bar-graph-header span p{
+color: #8C9BBF;
+ font-size: 14px;
+ font-family: Mulish;
+ font-weight: 400;
+ letter-spacing: 0.88px;
+ word-wrap: break-word
+}
+
 canvas {
     height: 350px !important;
     width: 100% !important;

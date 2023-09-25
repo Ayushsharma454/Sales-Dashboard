@@ -36,7 +36,7 @@ const LineChart = () => {
                 return gradient;
             },
             borderColor: "#0891FE",
-            pointBorderwidth: 4,
+            pointBorderwidth: 7,
             tension: 0.5,
             fill: true,
         }]
@@ -44,7 +44,7 @@ const LineChart = () => {
     const options = {
         plugins: {
             legend: {
-              display: false, // Hide legend
+              display: false,
             },
             tooltip: {
                 yAlign: 'bottom',
